@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "1",
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -13,7 +13,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne",
+      "alt_img": null
     },
     {
       "id": "dc-superman",
@@ -22,7 +23,15 @@
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
       "characters": "Kal-El",
-      "alt_img": "https://content.eccediciones.com//productos/5265/superman_80.jpg"
+      "alt_img": null
+    },
+    {
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
     },
     {
       "id": "dc-green",
@@ -31,6 +40,15 @@
       "alter_ego": "Alan Scott",
       "first_appearance": "All-American Comics #16",
       "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+    },
+    {
+      "id": "dc-arrow",
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
+      "alter_ego": "Oliver Queen",
+      "first_appearance": "More Fun Comics #73",
+      "characters": "Oliver Queen",
+      "alt_img": null
     },
     {
       "id": "dc-wonder",
@@ -151,24 +169,6 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "marvel-cavernicola",
-      "superhero": "Capi",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Alfredo Tena",
-      "first_appearance": "La floresta #2020",
-      "characters": "Cavernicola, cavernicolin",
-      "alt_img": "https://www.latercera.com/resizer/7Jam6ualL5Vlgl9rvy41AQmTYkw=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/ZMH4BPFFUVEVRPLIPHGDFHZJB4.jpg"
-    },
-    {
-      "id": "marvel-chapulin",
-      "superhero": "El chapulin colorado",
-      "publisher": "Marvel Comics",
-      "alter_ego": "chespirito",
-      "first_appearance": "televisa #1970",
-      "characters": "el chavo del ocho, el chanfle",
-      "alt_img": "https://www.newslinereport.com/online/nota_el-chapuln-colorado-en-exclusiva-por-veo-play-.jpg"
     }
   ]
 }
